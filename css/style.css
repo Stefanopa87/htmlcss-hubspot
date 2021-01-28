@@ -4,38 +4,76 @@
   box-sizing: border-box;
 }
 
-#centratura{
+.container{
   width: 80%;
   margin: auto;
 }
 
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 /* IDEA: HEADER */
+
 .nav-top{
   width: 100%;
   min-height: 70px;
   background-color: #e0e4e4;
+  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+}
+
+.nav-top ul li{
+  margin-right: 12px;
+  display: inline-block;
+}
+
+.nav-top ul li,
+.nav-top .right{
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.nav-top li a{
+  text-decoration: none;
+  color: #33475B;
 }
 
 .nav-bottom{
   width: 100%;
   min-height: 70px;
   background-color: #ebf9f7;
-  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+
 }
+
 
 .jumbotron{
   width: 100%;
   min-height: 700px;
-  margin-top: 3px;
   background-image: url("../img/jumbotron.png");
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 /* IDEA: MAIN */
 main{
   width: 100%;
   min-height: 1000px;
-  background-color: #c5dcde;
+
   }
+
+.sfondo{
+  background-color: #c5dcde;
+}
 
 
 /* parte centrale con img */
@@ -90,13 +128,17 @@ main{
   background-color: #00B3AF;
 }
 
-.table #centratura{
+.table .container{
   height: 100%;
   /* debug */
   border: solid 2px red;
 }
 
 /* customers */
+
+.row2{
+  margin-top: 2px;
+}
 
 .customers{
   min-height: 120px;
@@ -105,8 +147,9 @@ main{
   float: left;
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
   margin-bottom: 20px;
+  /* debug */
+  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
 }
 
 .affiliates{
@@ -115,8 +158,9 @@ main{
   float: left;
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
   margin-bottom: 20px;
+  /* debug */
+  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
 }
 
 .row2::after{
