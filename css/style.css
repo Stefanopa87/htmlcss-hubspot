@@ -3,3 +3,168 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#centratura{
+  width: 80%;
+  margin: auto;
+}
+
+/* IDEA: HEADER */
+.nav-top{
+  width: 100%;
+  min-height: 70px;
+  background-color: #e0e4e4;
+}
+
+.nav-bottom{
+  width: 100%;
+  min-height: 70px;
+  background-color: #ebf9f7;
+  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+}
+
+.jumbotron{
+  width: 100%;
+  min-height: 700px;
+  margin-top: 3px;
+  background-image: url("../img/jumbotron.png");
+}
+
+/* IDEA: MAIN */
+main{
+  width: 100%;
+  min-height: 1000px;
+  background-color: #c5dcde;
+  }
+
+
+/* parte centrale con img */
+.rubik{
+  width: 100%;
+  height: 300px;
+  /* debug */
+  border: solid 2px red;
+}
+
+/* parte di float */
+.row1{
+}
+
+
+.top{
+  height: 200px;
+  margin-bottom: 35px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+  /* debug */
+}
+
+.col{
+  min-height: 650px;
+  width: 30%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+  margin-bottom: 20px;
+    /* debug */
+}
+.xx{
+  margin: 0 5%;
+  margin-bottom: 20px;
+  /* debug */
+}
+
+.row1::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* tavola acqua */
+
+.table{
+  width: 100%;
+  height: 500px;
+  background-color: #00B3AF;
+}
+
+.table #centratura{
+  height: 100%;
+  /* debug */
+  border: solid 2px red;
+}
+
+/* customers */
+
+.customers{
+  min-height: 120px;
+  width: 20%;
+  margin-left: 13%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+  margin-bottom: 20px;
+}
+
+.affiliates{
+  min-height: 120px;
+  width: 55%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+  margin-bottom: 20px;
+}
+
+.row2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* start today */
+
+.today{
+  min-height: 300px;
+  width: 35%;
+  margin-left: 15%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+  margin-bottom: 20px;
+}
+
+.picture{
+  min-height: 300px;
+  width: 35%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+  margin-bottom: 20px;
+}
+
+.row3::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* footer */
+
+footer{
+  width: 100%;
+  height: 400px;
+  background-color: #2D3E50;
+}
+
+.coda{
+  width: 100%;
+  height: 400px;
+  /* debug */
+  border: solid 2px red;
+}
