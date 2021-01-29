@@ -194,12 +194,43 @@ main{
 
 
 .top{
-  height: 200px;
+  height: 250px;
   margin-bottom: 35px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
   /* debug */
+}
+
+.boxsx{
+  height: 250px;
+  width: 250px;
+  position: relative;
+  margin-left: 40px;
+  /* debug */
+  border: 1px solid red;
+}
+
+.boxsx img{
+  padding-top: 10px;
+  padding-left: 10px;
+  position: absolute;
+  left: 15%;
+}
+
+.boxsx .button-position{
+  position: absolute;
+  bottom: 20%;
+  padding: 20px;
+  left: 30%;
+}
+
+.boxdx{
+  height: 250px;
+  width: 500px;
+  display: inline-block;
+  /* debug */
+  border: 1px solid red;
 }
 
 .col{
@@ -217,6 +248,14 @@ main{
   margin-bottom: 20px;
   /* debug */
 }
+
+.row1 img{
+  width: 160px;
+  display: block;
+  /* height: 70px; */
+}
+
+
 
 .row1::after{
   content: "";
