@@ -331,22 +331,44 @@ padding-bottom: 20px; */
   text-align: center;
 }
 
+.table .container{
+  height: 100%;
+  /* debug */
+  border: solid 2px red;
+}
+
 .table-text{
   padding: 25px 115px;
-  
 }
 
 .table-text h2 {
  margin-bottom: 20px;
 }
 
-
-
-.table .container{
-  height: 100%;
-  /* debug */
-  border: solid 2px red;
+.macro-area{
+  width: 25%;
+  height: 150px;
+  float: left;
+  border-bottom: 1px solid #fff;
 }
+
+.logo{
+  font-size: 35px;
+}
+
+.strong{
+  font-size: xx-large;
+}
+
+.white{
+  margin: 0px 0px 8px 0px;
+}
+
+/* IDEA: questa regola mi è utile nella parte verde acqua per fare le linee bianche */
+/* border-bottom: 1px solid black;
+padding-bottom: 20px; */
+.
+
 
 /* customers */
 
