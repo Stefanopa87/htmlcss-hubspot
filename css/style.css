@@ -22,13 +22,19 @@
   display: table;
   clear: both;
 }
+
+body{
+  font-family: 'Lora', serif;
+}
 /* IDEA: HEADER */
+
 
 .nav-top{
   width: 100%;
   min-height: 70px;
-  background-color: #e0e4e4;
+  background-color: #F4F9FD;
   box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+  position: fixed;
 }
 
 .nav-top ul li{
@@ -42,33 +48,104 @@
   vertical-align: middle;
 }
 
-.nav-top li a{
+.nav-top li a,
+.nav-bottom li a{
   text-decoration: none;
   color: #33475B;
+}
+
+.fa-search{
+  color: #15acc3;
+}
+
+#login{
+  border: 1px solid #FE775A;
+  color: #FE775A;
+  border-radius: 5px;
+  padding: 10px 12px;
+  margin-left: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.orange{
+  background-color: #FE775A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  cursor: pointer;
 }
 
 .nav-bottom{
   width: 100%;
   min-height: 70px;
-  background-color: #ebf9f7;
+  /* background-color: #ebf9f7; */
+  padding-top: 70px;
+  }
 
+.logo{
+  padding-top: 20px;
+}
+
+.nav-bottom a,
+.nav-bottom .right{
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.nav-bottom ul li{
+  margin-right: 12px;
+  display: inline-block;
 }
 
 
-.jumbotron{
-  width: 100%;
-  min-height: 700px;
-  background-image: url("../img/jumbotron.png");
-  background-position: bottom;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
 
 /* IDEA: MAIN */
 main{
   width: 100%;
   min-height: 1000px;
 
+  }
+
+  .jumbotron{
+    width: 100%;
+    min-height: 655px;
+    position: relative;
+    background-image: url("../img/jumbotron.png");
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .jumbo-text{
+    width: 500px;
+    height: 450px;
+    padding-left: 130px;
+    padding-top: 65px;
+    /* border: 1px solid red; */
+  }
+
+  .jumbo-text h1{
+    font-size: xxx-large;
+  }
+
+  .jumbo-text h1,
+  .jumbo-text h4{
+    margin-bottom: 20px;
+  }
+
+  .jumbo-text .orange{
+    margin-bottom: 20px;
+  }
+
+  .aqua-line{
+    width: 100%;
+height: 71px;
+position: absolute;
+bottom: 4px;
+background-color: #AFEBE4;
+box-shadow: -2px -4px 0px 0px rgb(45 62 80 / 85%);
   }
 
 .sfondo{
