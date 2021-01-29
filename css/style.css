@@ -95,7 +95,8 @@ body{
   vertical-align: middle;
 }
 
-.nav-bottom ul li{
+.nav-bottom ul li,
+.boxdx ul li{
   margin-right: 12px;
   display: inline-block;
 }
@@ -238,12 +239,22 @@ main{
   margin-right: 10px;
 }
 
-.boxdx hr{
-  height: 2px;
-  border-width: 2;
-  color: gray;
-  background-color: gray;
+/* IDEA: questa regola mi è utile nella parte verde acqua */
+/* border-bottom: 1px solid black;
+padding-bottom: 20px; */
+.boxdx h3{
+  position: relative;
 }
+
+.boxdx h3:after {
+ position: absolute;
+ content: "";
+ height: 1px;
+ background-color: #828080;
+ width: 50%;
+ margin-left: 15px;
+ top: 50%;
+       }
 
 .col{
   min-height: 650px;
@@ -316,7 +327,20 @@ main{
   width: 100%;
   height: 500px;
   background-color: #00B3AF;
+  color: #fff;
+  text-align: center;
 }
+
+.table-text{
+  padding: 25px 115px;
+  
+}
+
+.table-text h2 {
+ margin-bottom: 20px;
+}
+
+
 
 .table .container{
   height: 100%;
