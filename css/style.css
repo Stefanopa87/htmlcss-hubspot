@@ -35,6 +35,7 @@ body{
   background-color: #F4F9FD;
   box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
   position: fixed;
+  z-index: 999;
 }
 
 .nav-top ul li{
@@ -141,15 +142,15 @@ main{
 
   .aqua-line{
     width: 100%;
-height: 71px;
-position: absolute;
-bottom: 4px;
-background-color: #AFEBE4;
-box-shadow: -2px -4px 0px 0px rgb(45 62 80 / 85%);
+    height: 71px;
+    position: absolute;
+    bottom: 4px;
+    background-color: #AFEBE4;
+    box-shadow: -2px -4px 0px 0px rgb(45 62 80 / 85%);
   }
 
 .sfondo{
-  background-color: #c5dcde;
+  background-color: #F4F9FD;
 }
 
 
@@ -157,9 +158,35 @@ box-shadow: -2px -4px 0px 0px rgb(45 62 80 / 85%);
 .rubik{
   width: 100%;
   height: 300px;
+  position: relative;
   /* debug */
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
+
+.rubik img{
+  width: 240px;
+  height: 160px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rubik h2{
+  font-size: xx-large;
+}
+
+.rubik-text{
+  position: absolute;
+  text-align: center;
+  bottom: 35px;
+  left: 10%;
+  right: 10%;
+}
+
+
+
+
 
 /* parte di float */
 .row1{
