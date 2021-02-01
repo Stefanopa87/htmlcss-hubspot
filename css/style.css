@@ -334,7 +334,7 @@ padding-bottom: 20px; */
 .table .container{
   height: 100%;
   /* debug */
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 
 .table-text{
@@ -345,7 +345,7 @@ padding-bottom: 20px; */
  margin-bottom: 20px;
 }
 
-.macro-area{
+.macro-area-top .macro-area{
   width: 25%;
   height: 150px;
   float: left;
@@ -362,6 +362,16 @@ padding-bottom: 20px; */
 
 .white{
   margin: 0px 0px 8px 0px;
+}
+
+.border-right{
+  border-right: 1px solid #fff;
+}
+
+.macro-area-bottom .macro-area{
+  width: 25%;
+  height: 150px;
+  float: left;
 }
 
 /* IDEA: questa regola mi è utile nella parte verde acqua per fare le linee bianche */
