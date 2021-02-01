@@ -39,7 +39,9 @@ body{
 }
 
 .nav-top ul li,
-.social ul li{
+.social ul li,
+.languages ul li,
+.privacy ul li{
   margin-right: 12px;
   display: inline-block;
 }
@@ -327,7 +329,7 @@ padding-bottom: 20px; */
 .table{
   width: 100%;
   height: 500px;
-  background-color: #00B3AF;
+  background-image: linear-gradient(45deg,#00a4bd,#00bd80);
   color: #fff;
   text-align: center;
 }
@@ -511,15 +513,15 @@ padding-bottom: 20px; */
 
 footer{
   width: 100%;
-  height: 400px;
+  height: 500px;
   background-color: #2D3E50;
 }
 
 .coda{
   width: 100%;
-  height: 400px;
-  /* debug */
-  border: solid 2px red;
+  height: 500px;
+  /* debug
+  border: solid 2px red; */
 }
 
 .macro-coda::after{
@@ -528,15 +530,12 @@ footer{
   clear: both;
 }
 
-
-
 .macro-coda{
   width: 25%;
   min-height: 350px;
   float: left;
-
-    /* debug */
-  border: solid 1px red;
+  /* debug
+  border: solid 1px red; */
 }
 
 .macro-coda h4{
@@ -548,13 +547,17 @@ footer{
   list-style: none;
 }
 
-.macro-coda a{
+.macro-coda a,
+.languages a,
+.privacy a{
   text-decoration: none;
   line-height: 2;
   color: #CBD6D9;
 }
 
-.macro-coda a:hover{
+.macro-coda a:hover,
+.languages a:hover,
+.privacy a:hover{
   text-decoration: underline;
   color: #FE775A;
 }
@@ -571,4 +574,28 @@ footer{
 
 .macro-coda button:hover{
   background-color: #FE775A;
+}
+
+.languages{
+  text-align: center;
+  border-bottom: 1px solid #CBD6D9;
+}
+
+.copyright{
+  width: 20%;
+  min-height: 100px;
+  margin-top: 15px;
+  /* border: 1px solid blue; */
+}
+
+.copyright h6{
+  color: #CBD6D9;
+  margin-top: 10px;
+}
+
+.privacy{
+  width: 20%;
+  min-height: 100px;
+  margin-top: 15px;
+  /* border: 1px solid blue; */
 }
