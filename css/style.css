@@ -383,30 +383,82 @@ padding-bottom: 20px; */
 /* customers */
 
 .row2{
-  margin-top: 2px;
+  margin-top: 10px;
 }
 
 .customers{
-  min-height: 120px;
+  min-height: 180px;
   width: 20%;
   margin-left: 13%;
   float: left;
   background-color: #fff;
   border-radius: 5px;
   margin-bottom: 20px;
+  text-align: center;
   /* debug */
-  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+  /* box-shadow: 0 2px 4px rgb(45 62 80 / 25%); */
 }
 
+.customers h2{
+  font-size: xxx-large;
+  margin: 40px;
+}
+
+
 .affiliates{
-  min-height: 120px;
-  width: 55%;
+  min-height: 180px;
+  width: 60%;
   float: left;
+  margin-left: 6%;
   background-color: #fff;
   border-radius: 5px;
   margin-bottom: 20px;
   /* debug */
-  box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
+  /* box-shadow: 0 2px 4px rgb(45 62 80 / 25%); */
+}
+
+.affiliates-top .box,
+.affiliates-bottom .box{
+  width: 20%;
+  height: 80px;
+  margin: 2%;
+  float: left;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* debug */
+  /* border: 1px solid red; */
+}
+
+.uno{
+  background-image: url("../img/atlassian.png");
+}
+.due{
+  background-image: url("../img/doordash.png");
+}
+.tre{
+  background-image: url("../img/g2crowd-logo@2x.png");
+}
+.quattro{
+  background-image: url("../img/purple-logo@2x.png");
+}
+.cinque{
+  background-image: url("../img/subaru.png");
+}
+.sei{
+  background-image: url("../img/wistia.png");
+}
+.sette{
+  background-image: url("../img/classpass.png");
+}
+.otto{
+  background-image: url("../img/vmware.png");
+}
+.box img{
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+
 }
 
 .row2::after{
