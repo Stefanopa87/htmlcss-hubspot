@@ -377,8 +377,6 @@ padding-bottom: 20px; */
 /* IDEA: questa regola mi è utile nella parte verde acqua per fare le linee bianche */
 /* border-bottom: 1px solid black;
 padding-bottom: 20px; */
-.
-
 
 /* customers */
 
@@ -454,12 +452,7 @@ padding-bottom: 20px; */
 .otto{
   background-image: url("../img/vmware.png");
 }
-.box img{
-  /* background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
 
-}
 
 .row2::after{
   content: "";
@@ -474,20 +467,37 @@ padding-bottom: 20px; */
   width: 35%;
   margin-left: 15%;
   float: left;
+  /* debug
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
-  margin-bottom: 20px;
+  margin-bottom: 20px; */
+}
+
+.today h2,
+.today p{
+  text-align: left;
+  line-height: 2;
+}
+
+.today .orange{
+  margin: 7% 0;
+  padding: 4%;
 }
 
 .picture{
   min-height: 300px;
   width: 35%;
   float: left;
+  background-image: url("../img/woman.webp");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* debug
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgb(45 62 80 / 25%);
-  margin-bottom: 20px;
+  margin-bottom: 20px; */
 }
 
 .row3::after{
